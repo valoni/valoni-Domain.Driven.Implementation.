@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Domain\Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Val.Core\GenericRepositoryEntityFramework\GenericRepositoryEntityFramework.csproj" />
+    <ProjectReference Include="..\..\Val.Core\SharedKernel\SharedKernel.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TutorialWebAPI</name>
+    </assembly>
+    <members>
+        <member name="P:ExampleWebAPI.Models.OrderModels.OrderItemSaveRequestModel.ProductId">
+            <example>1</example>
+        </member>
+        <member name="P:ExampleWebAPI.Models.OrderModels.OrderSaveRequestModel.ShippingAdress">
+            <example>Prishtine Kosove</example>
+        </member>
+        <member name="T:ExampleWebAPI.Models.OrderModels.OrderViewModel">
+            <summary>
+            OrderViewModel
+            </summary>
+        </member>
+        <member name="P:ExampleWebAPI.Models.OrderModels.OrderViewModel.Id">
+            <summary>
+            Id
+            </summary>
+        </member>
+        <member name="P:ExampleWebAPI.Models.OrderModels.OrderViewModel.TrackingNumber">
+            <summary>
+            TrackingNumber
+            </summary>
+        </member>
+        <member name="P:ExampleWebAPI.Models.OrderModels.OrderViewModel.ShippingAdress">
+            <summary>
+            ShippingAdress
+            </summary>
+        </member>
+        <member name="P:ExampleWebAPI.Models.OrderModels.OrderViewModel.OrderDate">
+            <summary>
+            OrderDate
+            </summary>
+        </member>
+        <member name="P:ExampleWebAPI.Models.OrderModels.OrderViewModel.OrderItems">
+            <summary>
+            OrderItems 
+            </summary>
+        </member>
+        <member name="P:ExampleWebAPI.Models.OrderModels.PriceSaveRequestModel.Amount">
+            <example>100</example>
+        </member>
+        <member name="P:ExampleWebAPI.Models.OrderModels.PriceSaveRequestModel.Unit">
+            <example>MoneyUnit.Euro</example>
+        </member>
+        <member name="T:ExampleWebAPI.Startup">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ExampleWebAPI.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="P:ExampleWebAPI.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ExampleWebAPI.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+    </members>
+</doc>
